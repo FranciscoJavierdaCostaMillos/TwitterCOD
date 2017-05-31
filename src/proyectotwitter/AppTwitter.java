@@ -20,10 +20,10 @@ public class AppTwitter {
     public void connect() {
         ConfigurationBuilder cb = new ConfigurationBuilder();
         cb.setDebugEnabled(true)
-                .setOAuthConsumerKey("zhCddk32GjDz3YRcmWg0HhYqg")
-                .setOAuthConsumerSecret("IUv2rIZcGOb4NrOM6j6dOHZG01Nhpnop54wOnumhyYdSIsvT4V")
-                .setOAuthAccessToken("564692658-4UHWK4UtJeKwfy8d2ZnK10aCugg1ppmx32OfACsz")
-                .setOAuthAccessTokenSecret("Z7AqSEWhVFT9LyJpv3JH23unedgiRJTWSJO6uBwkq3iwA");
+                .setOAuthConsumerKey("***********")
+                .setOAuthConsumerSecret("************++")
+                .setOAuthAccessToken("*****************+++++")
+                .setOAuthAccessTokenSecret("***************");
         TwitterFactory tf = new TwitterFactory(cb.build());
         twitter = tf.getInstance();
     }

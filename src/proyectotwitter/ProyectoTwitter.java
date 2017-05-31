@@ -7,7 +7,7 @@ package proyectotwitter;
 
 /**
  *
- * @author kevin
+ * @author fdacostamillos
  */
 public class ProyectoTwitter {
 

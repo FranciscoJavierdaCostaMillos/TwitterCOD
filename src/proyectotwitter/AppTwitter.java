@@ -11,7 +11,7 @@ import twitter4j.conf.ConfigurationBuilder;
 
 /**
  *
- * @author kevin
+ * @author fdacostamillos
  */
 public class AppTwitter {
 
@@ -20,10 +20,10 @@ public class AppTwitter {
     public void connect() {
         ConfigurationBuilder cb = new ConfigurationBuilder();
         cb.setDebugEnabled(true)
-                .setOAuthConsumerKey("h5QMQS9cq1YDXlgBSZFOoJnkz")
-                .setOAuthConsumerSecret("lCnodmJSIPHVhuxpZlnKe88TQDgwO9OGYCLpdR5gpVdKIiorCb")
-                .setOAuthAccessToken("843739695091802112-z9wPdDceVHCkzQT9xgfUcPyA3scb7b6")
-                .setOAuthAccessTokenSecret("1cygSjbP9gyZ0aGJep8sK2603tcZ6yaILM843nQpHdPaL");
+                .setOAuthConsumerKey("zhCddk32GjDz3YRcmWg0HhYqg")
+                .setOAuthConsumerSecret("IUv2rIZcGOb4NrOM6j6dOHZG01Nhpnop54wOnumhyYdSIsvT4V")
+                .setOAuthAccessToken("564692658-4UHWK4UtJeKwfy8d2ZnK10aCugg1ppmx32OfACsz")
+                .setOAuthAccessTokenSecret("Z7AqSEWhVFT9LyJpv3JH23unedgiRJTWSJO6uBwkq3iwA");
         TwitterFactory tf = new TwitterFactory(cb.build());
         twitter = tf.getInstance();
     }
